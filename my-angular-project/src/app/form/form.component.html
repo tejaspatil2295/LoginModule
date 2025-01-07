@@ -1,0 +1,8 @@
+<b><h1>Register</h1></b>
+<form #basicForm="ngForm" (ngSubmit)="getdata(basicForm)">
+  
+  <input type="text" name="user" ngModel placeholder="Enter name"/><br><br>
+  <input type="tel" name="phone" ngModel placeholder="mobile"/><br><br>
+  
+  <button type="submit">Submit</button>
+</form>
